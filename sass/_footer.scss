@@ -1,0 +1,27 @@
+footer{
+    padding: 0 0 20px 0;
+    margin: 0 50px;
+
+    .contenedor {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color:$negro;
+        text-align: center;
+        letter-spacing: 0.5px;
+
+    }
+
+    .copyright {
+        margin-top: 25px;
+        padding: 10px;
+        color:$negro;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    i {
+        margin: 5px;
+    }
+    
+}

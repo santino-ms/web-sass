@@ -1,0 +1,67 @@
+.destacado {
+    padding: 40px;
+    &.uno{
+        background-color: $verde;
+        background-image: url(..//imagenes/section1.jpg);
+        background-repeat: no-repeat;
+        background-size: 40%;
+        background-position: right center;
+
+        a {
+            background: $verde;
+        }
+    }
+    &.dos{
+        background-color: $celeste;
+        background-image: url(..//imagenes/section2.jpg);
+        background-repeat: no-repeat;
+        background-size: 40%;
+        background-position: left center;
+
+        a{
+            background: $celeste;
+        }
+    }
+    &.tres{
+        background-color: $azul;
+        background-image: url(..//imagenes/section3.jpg);
+        background-repeat: no-repeat;
+        background-size: 40%;
+        background-position: right center;
+        
+        a{
+            background: $azul;
+        }
+    }
+    .contenedor {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    h2 {
+        color: $blanco;
+        font-weight: 300;
+        font-size: $fs-titulos;
+        letter-spacing: 2px;
+        width: 30%;
+    }
+    article {
+        width: 50%;
+        background: rgba(255,255,255, 0.8);
+        padding: 30px;
+        border-radius: $br;
+    }
+
+    h3 {
+        @extend %titulos_h3;
+    }
+
+    p {
+        @extend %p_articulos;
+    }
+
+    a{
+        @extend %btn_articulos;
+    }
+}
+

@@ -1,0 +1,68 @@
+.recurso {
+    padding: 40px;
+    background-color: $violeta;
+    
+    .contenedor { 
+        width: 75%;
+        height: 100vh;
+        background-color: $blanco;
+        background-position: center;
+        position: relative;
+        border-radius: $br;
+    }
+
+    .contenedor::before {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 50%;
+        background-image: url("..//imagenes/slider.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: $br $br 0px 0px;
+
+    }
+    
+    article {
+        width: 70%;
+        color:$negro;
+        text-align: center;
+        margin: 90px auto;
+
+
+        h3 {
+            @extend %titulos_h3;     
+            font-weight: 100;
+            letter-spacing: 0.5px;      
+        }
+
+        p{
+            @extend %p_articulos;
+        }
+    }
+
+    h2 {
+        color: $blanco;
+        font-size: $fs-titulos;
+        text-align: center;
+        padding: 35px;
+        letter-spacing: 1px;
+        font-weight: 100;
+        text-transform: uppercase;
+        font-style: italic;
+    }
+
+    h2::after {
+        content: '';
+        display: block;
+        width: 70px;
+        height: 2px;
+        background-color: $blanco;
+        margin: 15px auto;
+    }
+
+    a {
+        background-color:$violeta;
+       @extend %btn_articulos;
+    }
+}

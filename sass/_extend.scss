@@ -1,0 +1,22 @@
+%titulos_h3 {
+    color: $negro;
+    font-size: 24px;
+    line-height: 150%;
+    margin-bottom: 20px;
+}
+
+%p_articulos {
+    color:$negro;
+    font-size: $fs-parrafos;
+    line-height: 140%;
+}
+
+%btn_articulos {
+text-transform: uppercase;
+color: $blanco;
+display: inline-block;
+margin-top: 20px;
+padding: 8px 16px;
+font-size: $fs-parrafos;
+border-radius: $br;
+}

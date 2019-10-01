@@ -1,0 +1,54 @@
+.subscribe {
+    padding: 30px 0;
+    position: relative;
+
+    .contenedor-pleno {
+        margin: 0;
+        padding: 20px;
+        width: 100%;
+        height: 400px;
+        background-color: $verde;
+        
+    }
+
+    article {
+        text-align: center;
+        color: $blanco;
+
+    }
+
+    h2 {
+        padding: 30px;
+        font-weight: 100;
+        font-size: $fs-titulos;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-style: italic;
+    }
+    h2::after{
+        content:'';
+        display: block;
+        width: 50px;
+        height: 2px;
+        background: $blanco;
+        margin: 30px auto;
+    }
+
+    p {
+        margin: auto;
+        width: 60%;
+        line-height: 150%;
+        margin-bottom: 45px;
+    }
+    
+    .campo {
+        padding: 10px;
+        border-radius: $br;
+        width: 22%;
+    }
+
+    .btn {
+        @extend %btn_articulos;
+        background-color: $violeta;
+    }
+}
