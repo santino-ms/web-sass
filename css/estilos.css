@@ -215,8 +215,6 @@ header article a {
     grid-gap: 40px;
     text-align: center; }
   .articulos-varios .contenedor {
-    max-width: 500px;
-    height: 500px;
     background-color: #ffffff;
     border-radius: 4px;
     border: 1px solid #575757; }
@@ -238,6 +236,8 @@ header article a {
     background-color: #5d92cc; }
   .articulos-varios .cuarto a {
     background-color: #6e81d0; }
+  .articulos-varios a {
+    margin-bottom: 20px; }
   .articulos-varios h2 {
     color: #575757;
     font-size: 28px;

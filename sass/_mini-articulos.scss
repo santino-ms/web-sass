@@ -19,8 +19,6 @@
     }
 
     .contenedor {
-        max-width: 500px;
-        height: 500px;
         background-color: $blanco;
         border-radius: $br;
         border: 1px solid $negro;
@@ -61,6 +59,7 @@
 
         a {
             @extend %btn_articulos;
+            margin-bottom: 20px;
         }
 
         h2 {
